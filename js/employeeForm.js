@@ -1,4 +1,3 @@
-
 let employee = new Employee();
 
 window.addEventListener("load", () => {
