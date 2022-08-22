@@ -126,7 +126,8 @@ function saveForm() {
             return;
         }
         
-        submitForm(employee);
+        // This function is for saving on local storage
+        //submitForm(employee);
     } catch (invalidDate) {
         errorDate.textContent = invalidDate;
     }
